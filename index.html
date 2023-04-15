@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>UE206 - S2 Parcours 2</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	</head>
+	
+<body>  
+		
+	<header id="header">
+        
+     	<div class="row align-center">
+			
+			<div class="header-logo">
+				<h1>
+                    <img src="assets/images/logo.png" alt="Village Vicomte" class="header-logo-img">
+                </h1>
+			</div><!-- eof .header-logo -->
+			
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item">
+                        <a href="templates/hebergement.html" class="header-nav-link" title="Hébergements">Hébergements</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link" title="Commerces">Commerces</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link" title="Activités">Activités</a>
+                    </li>                    
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link" title="Réservations">Réservations</a>
+                    </li>                    
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link" title="Infos pratiques">Infos pratiques</a>
+                    </li>                    
+                </ul>
+             </nav><!-- eof .header-nav -->	
+		</div><!-- eof .row -->	
+	</header><!-- eof .header -->
+						
+	<section class="presentation">
+        <img src="assets/images/presentation.jpg" alt="Notre maison">
+        
+        <div class="introduction">
+            
+            <h2 class="suptitle">Dans le Parc naturel régional Périgord-Limousin</h2>
+            <p class="subtitle">Un village au coeur d'une <span>nature préservée</span></p>
+
+            <p class="introduction-text">Bienvenue au village Vicomte, pour passer des vacances déconnectées de la vie urbaine et stressante. Oubliez les voitures et déplacez-vous en charette, à cheval ou à poneys. Oubliez la télévision et internet pour quelques jours, et rejoignez ceux qui ont passé le pas avant vous !</p> 
+        </div>
+        
+        <div class="row justify-center focus">
+            <div class="focus-item">
+                <img src="assets/images/icons/focus-home.png" alt="Picto Maison">
+                <h3>Séjour détente</h3>
+                <p>Belles maisons en pierres traditionnelles avec terrasses fleuries et grands jardins privatifs.</p>
+            </div><!-- eof .focus-item -->
+            <div class="focus-item">
+                <img src="assets/images/icons/focus-repas.png" alt="Picto repas">
+                <h3>Repas insolites</h3>
+                <p>Visitez nos auberges pour des balades gourmandes, novatrices et toujours remplies d'un soupçon de nature.</p>
+            </div><!-- eof .focus-item -->
+            <div class="focus-item">
+                <img src="assets/images/icons/focus-paysage.png" alt="Picto Paysage">
+                <h3>Paysage naturel</h3>
+                <p>Au coeur de notre pays, retrouvez un paysage boisé qui sent bon la chlorophylle, et où tous les animaux vivent avec nous.</p>
+            </div><!-- eof .focus-item -->
+            <div class="focus-item">
+                <img src="assets/images/icons/focus-animation.png" alt="Picto animations">
+                <h3>Animations à thème</h3>
+                <p>Retrouvez vos voisins lors de soirées sur la grande place du village pour passer des soirées inoubliables</p>
+            </div><!-- eof .focus-item -->
+         </div><!-- eof .focus -->        
+    </section><!-- eof .presentation -->
+
+    <div class="separator" role="presentation"></div>
+
+    <section class="autopromo">
+        <div class="autopromo-content">
+            <h2>Un village en totale autarcie</h2>
+            <p>Niché dans le Parc naturel régional Périgord-Limousin, le village Vicomte s'étend sur plusieurs centaines d'hectares pour votre plus grand plaisir.</p>
+            <p>Tous les commerces sont là pour subvenir à vos besoins (boulangeries, épiceries, boucheries...), mais aussi les services à la personnes (médecin, infirmier, coiffeur...)</p>
+            <p>Venez participer à la vie du village en participant à de nombreuses initiations. Cultures, animaux, plantes, fabrication d'artisanat local. Vous vous créerez des souvenirs inoubliables !</p>
+        </div>
+    
+    </section><!-- eof .autopromo -->
+    
+    <div class="separator separator-two" role="presentation"></div>
+    
+    <aside class="reservation">
+        <div class="reservation-content">
+            <h2>Envie de venir nous voir ?</h2>
+            <p>Tenté par l'aventure ? Vérifiez les disponibilités de nos hébergements en fonction du nombre de personnes et de vos dates !</p>
+        
+            <form action="#" method="POST" class="reservation-form">
+                <fieldset>
+                    <legend>Combien viendront nous rendre visite ?</legend>
+                    <p class="third">
+                        <label for="resa-adult">Adultes : </label>
+                        <select name="resa-adult" id="resa-adult" required>
+                            <option value="">Nb d'adultes</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </p>
+                    <p class="third">
+                        <label for="resa-child">Enfants : </label>
+                        <select name="resa-child" id="resa-child" required>
+                            <option value="">Nb d'enfants</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </p>
+                    <p class="third">
+                        <label for="resa-animals">Animaux : </label>
+                        <select name="resa-animals" id="resa-animals" required>
+                            <option value="">Nb d'animaux</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </p>                
+                </fieldset>
+                <fieldset>
+                    <legend>Quand aura-t-on le plaisir de vous voir ?</legend>
+                    <p>
+                        <label for="resa-start">Du </label>
+                        <input type="date" name="resa-start" id="resa-start" required>
+                    </p>
+                    <p>
+                        <label for="resa-end">au </label>
+                        <input type="date" name="resa-end" id="resa-end" required>
+                    </p>
+                    <p>
+                        <input class="button" type="submit" value="Vérifier qu'une maison est disponible pour vous accueillir">
+                    </p>      
+                </fieldset>
+            </form>
+        </div><!-- eof .reservation-content -->
+
+    </aside><!-- eof .questions -->
+    
+    <div class="separator separator-three" role="presentation"></div>
+
+	<!-- Footer -->	
+	<footer id="footer">
+        <div class="row">
+            <div class="footer-infos">
+                <p class="footer-infos-title">Infos pratiques</p>
+                <address>
+                  La Comté<br>Terre du Milieu
+                </address>
+            </div><!-- eof .footer-infos -->
+            
+            <div class="footer-infos">
+                <p class="footer-infos-title">Besoin de plus d'informations ?</p>
+                <p><a class="button" href="mailto:monmail@mail.com" title="Envoyez-nous un message">Contactez-nous par mail !</a></p>
+                <p><span class="footer-link-suptitle">ou par téléphone</span><br>
+                    <a class="footer-link" href="tel:0555555555" title="Appelez-nous">05.55.55.55.55</a></p>
+            </div><!-- eof .footer-infos -->
+            
+            <div class="footer-infos">
+                <p class="footer-infos-title">Plan du site</p>
+                <nav class="footer-nav">
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-nav-link" title="Hébergements">Hébergements</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav-link" title="Commerces">Commerces</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav-link" title="Activités">Activités</a>
+                        </li>                    
+                        <li>
+                            <a href="#" class="footer-nav-link" title="Réservations">Réservations</a>
+                        </li>                    
+                        <li>
+                            <a href="#" class="footer-nav-link" title="Infos pratiques">Infos pratiques</a>
+                        </li>                    
+                    </ul>
+                 </nav><!-- eof .footer-nav -->
+            </div><!-- eof .footer-infos -->
+        </div>
+        
+	</footer><!-- eof .footer -->		
+</body>
+</html>
